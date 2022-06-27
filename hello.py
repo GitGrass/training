@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    name = "Hoge"
+    name = "hoge"
     #return name
     return render_template('hello.html', title='flask test', name=name) #変更
 
